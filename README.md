@@ -1,6 +1,6 @@
 # MacSentinel
 
-![version](https://img.shields.io/github/v/tag/summerxzp/MacSentinel?label=version)
+![version](https://img.shields.io/badge/version-1.0.0-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 
 macOS 恶意域名监控溯源工具，基于 [DNSMonitor](https://objective-see.org/products/dnsmonitor.html) 实时捕获 DNS 查询，自动溯源发起进程，推送告警通知。
