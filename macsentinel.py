@@ -473,7 +473,7 @@ def check_crash_reports(pid):
 # ============================================================
 
 def trace_process(pid, proc_name, proc_path, domain, dns_answers):
-    """深度溯源进程，返回格式化文本（v8 增强版）"""
+    """深度溯源进程，返回格式化文本"""
     lines = []
     lines.append(f"**🖥 主机:** {HOSTNAME}")
     lines.append(f"**🕐 时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")

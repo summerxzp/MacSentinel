@@ -230,8 +230,8 @@ def check_trace_features(log_content):
 def main():
     print()
     print("╔══════════════════════════════════════════════════╗")
-    print("║     恶意域名监控脚本 · 自动化测试套件            ║")
-    print(f"║     版本: v8 | 日期: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}       ║")
+    print("║     MacSentinel · 自动化测试套件                  ║")
+    print(f"║     版本: v1.0.0 | 日期: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}       ║")
     print("╚══════════════════════════════════════════════════╝")
 
     if os.geteuid() != 0:
