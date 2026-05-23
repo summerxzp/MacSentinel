@@ -1,0 +1,27 @@
+{
+  "target_domains": [
+    "cdn.pynice.com",
+    ".evil.com",
+    "=c2.cn"
+  ],
+  "feishu_webhook": "",
+  "feishu_max_per_minute": 30,
+  "dnsmon_bin": "/Applications/DNSMonitor.app/Contents/MacOS/DNSMonitor",
+  "cleanup_netext": true,
+  "max_log_size": 1073741824,
+  "alert_dedup_seconds": 30,
+  "trace_timeout_seconds": 15,
+  "cache_max_size": 1000,
+  "dedup_ttl_seconds": 300,
+  "malicious_domains": [
+    "pynice.com",
+    "cdn.pynice.com"
+  ],
+  "high_risk_paths": [
+    "/tmp/",
+    "/var/tmp/",
+    "/private/tmp/",
+    "/Users/Shared/",
+    "/private/var/"
+  ]
+}

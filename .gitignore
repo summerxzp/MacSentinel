@@ -1,0 +1,29 @@
+# Runtime logs
+monitor_*.log
+monitor_alert_*.log
+
+# Config (contains webhook secrets)
+config.json
+
+# Backup files from test script
+*.bak_config
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package artifacts
+package/
+bak/
